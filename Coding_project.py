@@ -23,22 +23,22 @@ def take_test(questions):
                print("Please input a number")
              
          if user_response == inquiry["response"]:
-            print("Correct!")
+            print("Correct! 👍")
             result += 1
          else:
             correct_option = inquiry['options'][inquiry['response'] -1]
-            print("\nNice attempt")
+            print("\nNice attempt 👎")
             print(f"The correct response was: {correct_option}")
 
 
    """Personalised messages for the each final result""" 
    final_result = {
-      0: "\nUps... :(",
-      1: "\nTry again...",
-      2: "\nMaybe next time",
-      3: "\nNot bad",
-      4: "\nYou were almost there!",
-      5: "\nCongrats you scored the HIGHEST!!!"
+      0: "\nUps... 😔",
+      1: "\nTry again... 😓",
+      2: "\nMaybe next time 🙁",
+      3: "\nNot bad 👍",
+      4: "\nYou were almost there! 👌",
+      5: "\nCongrats you scored the HIGHEST!!! 😁"
    }
    print(final_result.get(result))
    print(f"Your final result was: {result}/{len(questions)}.")

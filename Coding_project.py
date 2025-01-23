@@ -1,5 +1,4 @@
 import random
-import json
 
 print("\nHello and greeetings to the test")
        
@@ -70,16 +69,16 @@ def main():
          try:
             selected_subject = int(input(f"\nPlease enter the number of your subject here:"))
             if selected_subject == 1:
-               take_test(math_test)
+               take_test("Maths")
                break
             elif selected_subject == 2:
-               take_test(science_test)
+               take_test("science")
                break
             elif selected_subject == 3:
-               take_test(history_test)
+               take_test("history")
                break
             elif selected_subject == 4:
-               take_test(economics_test)
+               take_test("economics")
             else:
                print("Choose a valid option between (1,2,3 or 4)")
          except ValueError:

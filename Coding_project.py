@@ -3,9 +3,8 @@ import random
 print("\nHello and greeetings to the test")
        
 def take_test(questions):
-   result = 0
-   """"For questions to pop randomly"""""
-   random.shuffle(questions) 
+   result = 0 #Initial score
+
    
    for idx, inquiry in enumerate(questions):
          print(f"\nInquiry {idx + 1}: {inquiry['Query:']}")
@@ -13,37 +12,36 @@ def take_test(questions):
             print(f"{i}. {option}")
   
 
-         """To evaluate if answer is correct or incorrect"""
          while True:
             try:
-               user_response = int(input(f"\nPlease enter the number of your response here:"))
+               user_response = int(input(f"\nPlease enter the number of your response here:")) #User to input the response when answering the questions
                if 1 <= user_response <= len(inquiry['options']):
                   break
                else:
                   print("Please input a correct option.")  
             except ValueError:
-               print("Please input a number")
+               print("Please input a number") #When users input other characters 
 
 
          """To evaluate if answer is correct or wrong"""    
          if user_response == inquiry["response"]:
-            print("Correct! 👍")
+            print("Correct! ")
             result += 1
          else:
             correct_option = inquiry['options'][inquiry['response'] -1]
-            print("\nNice attempt 👎")
+            print("\nNice attempt ")
             print(f"The correct response was: {correct_option}")
 
    random.shuffle(questions) #For questions to pop randomly
 
    """Personalised messages for the each final result""" 
    final_result = {
-      0: "\nUps... 😔",
-      1: "\nTry again... 😓",
-      2: "\nMaybe next time 🙁",
-      3: "\nNot bad 👍",
-      4: "\nYou were almost there! 👌",
-      5: "\nCongrats you scored the HIGHEST!!! 😁"
+      0: "\nUps... ",
+      1: "\nTry again... ",
+      2: "\nMaybe next time ",
+      3: "\nNot bad ",
+      4: "\nYou were almost there! ",
+      5: "\nCongrats you scored the HIGHEST!!! "
    }
 
    """To display final result"""

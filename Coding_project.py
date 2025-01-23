@@ -4,12 +4,14 @@ print("\nHello and greeetings to the test")
        
 def take_test(questions):
    result = 0
-   
+   """"For questions to pop randomly"""""
+   random.shuffle(questions) 
    
    for idx, inquiry in enumerate(questions):
          print(f"\nInquiry {idx + 1}: {inquiry['Query:']}")
          for i, option in enumerate(inquiry['options'], start=1):
             print(f"{i}. {option}")
+  
 
          """To evaluate if answer is correct or incorrect"""
          while True:
@@ -21,7 +23,9 @@ def take_test(questions):
                   print("Please input a correct option.")  
             except ValueError:
                print("Please input a number")
-             
+
+
+         """To evaluate if answer is correct or wrong"""    
          if user_response == inquiry["response"]:
             print("Correct! 👍")
             result += 1
@@ -30,6 +34,7 @@ def take_test(questions):
             print("\nNice attempt 👎")
             print(f"The correct response was: {correct_option}")
 
+   random.shuffle(questions) #For questions to pop randomly
 
    """Personalised messages for the each final result""" 
    final_result = {
@@ -40,8 +45,11 @@ def take_test(questions):
       4: "\nYou were almost there! 👌",
       5: "\nCongrats you scored the HIGHEST!!! 😁"
    }
+
+   """To display final result"""
    print(final_result.get(result))
    print(f"Your final result was: {result}/{len(questions)}.")
+
 
 
    """To play again or exit the app"""
@@ -56,6 +64,7 @@ def take_test(questions):
          print("Please input a correct option.")
 
 
+"""5 multiple choice questions from each subject"""
 def main():
    math_test = [
       {"Query:": "If x is a positive integer in the equation 12x = q, then q must be", "options": ["Positive integer", "Negative even integer", "Zero", "Positive odd integer"], "response":1},
@@ -89,7 +98,6 @@ def main():
       {"Query:": "Which of the following individuals is not considered economically inactive?", "options": ["People who are looking for work but do not have one", "Caregivers in the family or at home", "Students who are unemployed.", "Workers who are discouraged"], "response":1}
    ]
 
-
    while True:
       print("\nChoose Subject")
       print("1. Maths", )
@@ -97,6 +105,8 @@ def main():
       print("3. History")
       print("4. Economics")
 
+
+      """To choose the subject"""
       while True:
          try:
             selected_subject = int(input(f"\nPlease enter the number of your subject here:"))
@@ -112,10 +122,11 @@ def main():
             elif selected_subject == 4:
                take_test(economics_test)
             else:
-               print("Choose a valid option between (1,2,3 or 4)")
+               print("Choose a valid option between (1,2,3 or 4)") 
          except ValueError:
             print("Type a number!")
 
+   random.shuffle(questions)
 
 if __name__ == "__main__":                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
    main()

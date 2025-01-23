@@ -24,11 +24,11 @@
        {"Query:": "Who was the first emperor of Rome?", "options": ["Julius Caesar", "Augustus ", "Nero", "Constantine"], "response":2}
     ],
  
-    "EConomics" : [
+    "Economics" : [
        {"Query:": "What happens if the price floor is set higher than the equilibrium price?", "options": ["Scarcity", "Stability", "Surpluses", "None of the precending"], "response":3},
        {"Query:": "What is societys primary economic problem?", "options": ["Unemployment", "Inequality", "Poverty", "Scarcity"], "response":4},
        {"Query:": "What exactly do you mean when you say “mixed economy”?", "options": ["Traditional and modern industries", "Both the public and private sectors are involved", "Involvement of both foreign and domestic investors", "Subsistence and commercial farming"], "response":2},
        {"Query:": "What exactly do you mean when you say “under perfect competition in the product market”?", "options": ["VMP = MRP", "MRP > VMP", "VMP > MRP", "None of the preceding"], "response":4},
        {"Query:": "Which of the following individuals is not considered economically inactive?", "options": ["People who are looking for work but do not have one", "Caregivers in the family or at home", "Students who are unemployed.", "Workers who are discouraged"], "response":1}
     ]
- }
+}

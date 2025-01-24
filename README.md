@@ -19,8 +19,9 @@ Test yourself, is a program where users can test their knowledge in scholar subj
 
 *STEP 2:* Save the code on a file 
 
-*STEP 3:* On a new terminal where the file is saved, run. *example:* python test_yourself.py
+*STEP 3:* On a new terminal where the file is saved, run. *example:*   
 
+    python test_yourself.py
 ___________________________________________________________________________________
 
 ## HOW THE PROGRAM FUNCTIONS 

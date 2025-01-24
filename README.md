@@ -19,6 +19,35 @@ On this program, users choose the subject willing to answer, following with mult
 
 *STEP 2:* Save the code on a file 
 
-*STEP 3:* On a new terminal where the file is saved run. Example: python test_yourself.py
+*STEP 3:* On a new terminal where the file is saved, run. Example: python test_yourself.py
 
 
+#### HOW THE PROGRAM FUNCTIONS 
+
+- Firstly, you have to choose a subject, *example:*
+
+1. Maths
+2. Science
+3. History
+4. Economics
+
+- Secondly, after inputing the number of your subject, the first question will be displayed, *example: (4)*
+
+Inquiry 1: What happens if the price floor is set higher than the equilibrium price?
+1. Scarcity
+2. Stability
+3. Surpluses
+4. None of the precending
+
+Please enter the number of your response here:
+
+- Thidly, after all questions are answered, the final score will be display, with a personalised message according to your socre, *example:*
+
+Maybe next time
+Your final result was: 2/5.
+
+Congrats you scored the HIGHEST!!!
+Your final result was: 5/5.
+
+
+ 

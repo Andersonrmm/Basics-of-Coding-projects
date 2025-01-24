@@ -1,6 +1,6 @@
 import random
 
-print("\nHello and greeetings to the test")
+print("\nHello and greeetings from TestYOURSELF")
        
 def take_test(questions):
    result = 0 # Initial score
@@ -33,7 +33,7 @@ def take_test(questions):
             print(f"The correct response was: {correct_option}")
 
 
-   """Personalised messages for the each final result""" 
+   """Personalised messages for each final result""" 
    final_result = {
       0: "\nUps... ",
       1: "\nTry again... ",

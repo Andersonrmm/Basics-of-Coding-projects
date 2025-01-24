@@ -16,7 +16,9 @@ On this program, users choose the subject willing to answer, following with mult
 ### HOW CAN YOU RUN?
 
 *STEP 1:* Latest python version must be installed 
+
 *STEP 2:* Save the code on a file 
+
 *STEP 3:* On a new terminal where the file is saved run. Example: python test_yourself.py
 
 

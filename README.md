@@ -43,6 +43,7 @@ ________________________________________________________________________________
        2. Stability
        3. Surpluses
        4. None of the precending
+       Please enter the number of your response here:
 ___________________________________________________________________________________
 
 - *Thidly, after all questions are answered, the final score will be display, with a personalised message according to your socre:*

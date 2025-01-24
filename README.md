@@ -17,7 +17,7 @@ Test yourself, is a program where users can test their knowledge in scholar subj
 
 *STEP 1:* Latest python version must be installed 
 
-*STEP 2:* Save the code on a file 
+*STEP 2:* Save the code on a file with 
 
 *STEP 3:* On a new terminal where the file is saved, run. *example:*   
 

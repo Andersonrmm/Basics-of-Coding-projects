@@ -26,8 +26,8 @@ ________________________________________________________________________________
 
 ## HOW THE PROGRAM FUNCTIONS 
 
-- Firstly, you have to choose a subject
-- Secondly, after inputing the number of your subject, the first question will be displayed
+- *Firstly, choose a subject*
+- *Secondly, after inputing the number of the subject, the first question will be displayed:*
 
        Choose Subject
        1. Maths
@@ -45,7 +45,7 @@ ________________________________________________________________________________
        4. None of the precending
 ___________________________________________________________________________________
 
-- Thidly, after all questions are answered, the final score will be display, with a personalised message according to your socre, *example*:
+- *Thidly, after all questions are answered, the final score will be display, with a personalised message according to your socre:*
 
        Congrats you scored the HIGHEST!!!
        Your final result was: 5/5.

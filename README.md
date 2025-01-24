@@ -21,7 +21,7 @@ ________________________________________________________________________________
 
 *STEP 2:* Save the code on a file 
 
-*STEP 3:* On a new terminal where the file is saved, run. Example: python test_yourself.py
+*STEP 3:* On a new terminal where the file is saved, run. *example:* python test_yourself.py
 
 ___________________________________________________________________________________
 

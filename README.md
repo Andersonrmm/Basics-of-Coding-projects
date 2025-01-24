@@ -25,7 +25,7 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________
 
-### HOW THE PROGRAM FUNCTIONS 
+## HOW THE PROGRAM FUNCTIONS 
 
 - Firstly, you have to choose a subject
 - Secondly, after inputing the number of your subject, the first question will be displayed

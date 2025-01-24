@@ -39,14 +39,11 @@ ________________________________________________________________________________
        Please enter the number of your subject here:4
 ___________________________________________________________________________________
 
-      Inquiry 1: What happens if the price floor is set higher than the equilibrium price?
-      1. Scarcity
-      2. Stability
-      3. Surpluses
-      4. None of the precending
-
-      Please enter the number of your response here:
-
+       Inquiry 1: What happens if the price floor is set higher than the equilibrium price?
+       1. Scarcity
+       2. Stability
+       3. Surpluses
+       4. None of the precending
 ___________________________________________________________________________________
 
 - Thidly, after all questions are answered, the final score will be display, with a personalised message according to your socre, *example*:

@@ -7,7 +7,7 @@ Test yourself, is a program where users can test their knowledge in scholar subj
 
 - 4 different subjects;
 - Questions are displayed randomly;
-- Answers feedback is shown instantly (If correct or wrong)
+- Answers feedback is shown instantly (*if correct or wrong*)
 - Personalised messages for each score displayed at the end;
 - The end result is shown instantly;
 

@@ -1,4 +1,4 @@
-# TEST YOURSELF 
+# TestYOURSELF 
 
 Test yourself, is a program where users can test their knowledge in scholary subjects, such as: Maths, Sciences, History and Economics. 
 

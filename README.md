@@ -30,29 +30,29 @@ ________________________________________________________________________________
 - Firstly, you have to choose a subject
 - Secondly, after inputing the number of your subject, the first question will be displayed
 
-Choose Subject: 
-1. Maths
-2. Science
-3. History
-4. Economics
+       Choose Subject
+       1. Maths
+       2. Science
+       3. History
+       4. Economics
 
-Please enter the number of your subject here: 4
+       Please enter the number of your subject here:4
 ___________________________________________________________________________________
 
-Inquiry 1: What happens if the price floor is set higher than the equilibrium price?
-1. Scarcity
-2. Stability
-3. Surpluses
-4. None of the precending
+      Inquiry 1: What happens if the price floor is set higher than the equilibrium price?
+      1. Scarcity
+      2. Stability
+      3. Surpluses
+      4. None of the precending
 
-Please enter the number of your response here: 3
+      Please enter the number of your response here:
 
 ___________________________________________________________________________________
 
-- Thidly, after all questions are answered, the final score will be display, with a personalised message according to your socre, *example:*
+- Thidly, after all questions are answered, the final score will be display, with a personalised message according to your socre, *example*:
 
-Congrats you scored the HIGHEST!!!
-Your final result was: 5/5.
+       Congrats you scored the HIGHEST!!!
+       Your final result was: 5/5.
 
 
  

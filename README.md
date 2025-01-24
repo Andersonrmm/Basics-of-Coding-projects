@@ -3,7 +3,7 @@
 Test yourself, is a program where users can test their knowledge in scholar subjects, such as: Maths, Sciences, History and Economics. 
 On this program, users choose the subject willing to answer, following with multiple choice questions, and the final score which is displayed at the end. 
 
-
+___________________________________________________________________________________
 
 ## FEATURES 
 
@@ -13,7 +13,7 @@ On this program, users choose the subject willing to answer, following with mult
 - Personalised messages for each score displayed at the end;
 - The end result is shown instantly;
 
-
+___________________________________________________________________________________
 
 ### HOW CAN YOU RUN?
 
@@ -23,7 +23,7 @@ On this program, users choose the subject willing to answer, following with mult
 
 *STEP 3:* On a new terminal where the file is saved, run. Example: python test_yourself.py
 
-
+___________________________________________________________________________________
 
 ### HOW THE PROGRAM FUNCTIONS 
 
